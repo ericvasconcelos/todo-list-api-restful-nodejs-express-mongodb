@@ -1,0 +1,33 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful ToDo List API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericvasconcelos/todo-list-api-restful-nodejs-express-mongodb.git"
+  },
+  "keywords": [
+    "API",
+    "RESTful"
+  ],
+  "author": "Eric Vasconcelos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericvasconcelos/todo-list-api-restful-nodejs-express-mongodb/issues"
+  },
+  "homepage": "https://github.com/ericvasconcelos/todo-list-api-restful-nodejs-express-mongodb#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
